@@ -1,0 +1,23 @@
+{
+  "name": "node-skeleton",
+  "version": "0.0.0",
+  "description": "NodeJs + express + angularJs skeleton.",
+  "main": "app.js",
+  "author": "OriW",
+  "engine": "node v6.4",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "~4.6.1",
+    "lodash.find": "^4.6.0",
+    "npm-watch": "^0.3.0",
+    "observe": "^1.4.1",
+    "ws": "^4.0.0"
+  },
+  "watch": {
+    "start": "server/*.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "watch": "npm-watch"
+  }
+}
